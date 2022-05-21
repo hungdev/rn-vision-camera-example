@@ -43,7 +43,7 @@ export default function App() {
     );
   }
 
-  const onTakePhoto = () => {
+  const onTakePhoto = async () => {
     try {
       const option = {
         flash: true
